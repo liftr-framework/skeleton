@@ -1,0 +1,14 @@
+
+{
+    "ignore": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        ".git",
+        "node_modules"
+    ],
+    "watch": [
+        "src"
+    ],
+    "exec": "node -r tsconfig-paths/register --inspect=9321 --eval \"require('./dist/server.js').default;\"",
+    "ext": "ts"
+}
