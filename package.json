@@ -1,7 +1,7 @@
 {
-  "name": "liftr-skeleton",
+  "name": "liftr",
   "version": "1.0.0",
-  "description": "A project setup with Liftr",
+  "description": "A project bootstrapped with the liftr-cli",
   "main": "server.js",
   "scripts": {
     "prestart": "tsc --incremental",

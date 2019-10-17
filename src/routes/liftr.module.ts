@@ -5,8 +5,8 @@ import { liftrMiddleware } from '@middlewares/liftr.middleware';
 
 export const LiftrModule = Module([
     {
-        route: liftrRoute,
-        middleware: [liftrMiddleware],
-        schema: liftrRouteschema,
+      route: liftrRoute,
+      middleware: [liftrMiddleware],
+      schema: liftrRouteschema,
     },
 ]);
