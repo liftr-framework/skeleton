@@ -14,7 +14,7 @@
     "pretest:unit": "npm run build:test",
     "pretest:watch": "tsc --incremental",
     "test:watch": "concurrently --kill-others \"tsc --watch --incremental\" \"mocha --watch\"",
-    "test:types": "tscov -p src"
+    "test:types": "tscov -p src --details"
   },
   "keywords": [
     "typescript",
