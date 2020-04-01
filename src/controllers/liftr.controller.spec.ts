@@ -5,7 +5,7 @@ import { liftrController } from './liftr.controller';
 
 describe('src/controllers/liftr.controller.ts', () => {
     let sandbox: sinon.SinonSandbox;
-    let req: any = {};
+    let req: Partial<Request>;
     let responseStub: Partial<Response>;
 
     beforeEach(() => {

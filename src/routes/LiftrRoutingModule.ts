@@ -3,8 +3,8 @@ import { LiftrModule } from './liftr.module';
 
 export const routes: AppRouter[] = [
   {
-        path: '/',
-        module: LiftrModule,
-        middleware: [],
+    path: '/',
+    module: LiftrModule,
+    middleware: [],
   },
 ];
